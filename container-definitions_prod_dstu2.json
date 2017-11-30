@@ -1,22 +1,3 @@
-[
-  {
-    "name": "{{CONTAINER_NAME}}-dstu2-prod",
-    "image": "nexus.hspconsortium.org:18083/hspc/{{CONTAINER_NAME}}:{{PROJECT_VERSION}}",
-    "cpu": 0,
-    "portMappings": [
-      {
-        "containerPort": 8074,
-        "hostPort": 0,
-        "protocol": "tcp"
-      }
-    ],
-    "memory": 1000,
-    "essential": true,
-    "environment": [
-      {
-        "name": "SPRING_PROFILES_ACTIVE",
-        "value": "dstu2,prod,multitenant"
-      }
-    ]
-  }
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:33d642dd82b5e9a6e7b6c09efd2da1cce0132b6b1bbe22911ff6156467173160
+size 631
